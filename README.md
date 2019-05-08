@@ -47,3 +47,18 @@ See also, a [ready-made application](https://github.com/heroku/python-getting-st
 - [Gunicorn](https://warehouse.python.org/project/gunicorn/)
 - [WhiteNoise](https://warehouse.python.org/project/whitenoise/)
 - [dj-database-url](https://warehouse.python.org/project/dj-database-url/)
+
+## Alacance del sistema
+Sistema que administra las cobranzas de una asociación de vivienda, Caso Las Américas
+La admistración será por lote.
+
+    1. Registro de lotes (Debe registrar los dueños del lote, sin embargo el dueño puede acceder a más de un lote)
+    2. Cargar cobranza al estado de cuenta del lote (Se cargarán direferentes conceptos de cobranza, también deberá permitir la anulación de la cobranza, notificar al correo la fecha de pago)
+    3. Registrar la cobranza (El usuario deberá subir el recibo al sistema para luego ser validado por el tesorero de la asociación)
+    4. Control de asistencia a las reuniones (Vía lector QR, el asistente deberá traer su QR impreso o en su smartphone, deberá haber una opcion via DNI)
+    5. Reportes
+        a) Cantidad de lotes {vendidos, libres}
+        b) Estado de cuenta {lote, total} (visualizar lo cobrado y por cobrar)
+        c) Lotes {deudas, sin deudas}
+        d) Registro de asistencia {Por día}
+
